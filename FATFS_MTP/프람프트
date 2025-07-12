@@ -1,0 +1,16 @@
+이 프로젝트는 다음을 만족합니다:
+- STM32H7B0VBT6 보드 기반
+- USB_OTG_FS 포트 사용 (PA11, PA12)
+- MTP (Media Transfer Protocol) 디바이스로 Windows에서 인식
+- FatFS + SDMMC는 설정되어 있으나, 파일 전송은 비활성화 상태
+- 목표: 장치관리자에서 "MTP USB Device"로 보이게 하는 최소 구성
+이를 테스트하기 위한 코드 생성을 부탁합니다.
+
+main.c
+main.h
+usbd_mtp.c
+usbd_mtp.h
+usb_device.c
+usb_device.h
+usbd_desc.c
+usbd_desc.h
